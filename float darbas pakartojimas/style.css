@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: auto;
+    width: 600px;
+    height: 450px;
+    border: 2px black solid;
+}
+
+.left {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.boxe {
+    padding: 20px;
+    width: 25%;
+    height: 78%;
+    color: blue;
+}
+
+.box {
+    border-left: 2px black solid;
+    padding: 10px;
+    width: 75%;
+    height: 78%;
+}
+
+header {
+    color: white;
+    text-align: center;
+    padding: 25px;
+    background-color: black;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 6px;
+}
+
+ul {
+    list-style: none;
+}
+
+.box h2{
+    padding: 15px;
+    margin-top: 40px;
+}
+
+.box p {
+    padding: 15px;
+}

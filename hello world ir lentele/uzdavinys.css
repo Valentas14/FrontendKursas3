@@ -1,0 +1,57 @@
+#tabler {
+    width: 250px; height: 250px;
+    background-color: aquamarine;
+    position: fixed;
+    margin-left: 625px;
+    text-align: center;
+    margin-top: 15px;
+    border: 15px solid blue;
+    outline: 15px solid black;
+    font-size: 20px;
+    color: red;
+}
+
+
+
+#bci {
+    background-image:url(https://images.unsplash.com/photo-1520241334777-b5b1824ce314?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=195b520c2fc5d0682271e8580d70fc30&w=1000&q=80);
+    background-size: cover;
+    margin-left: 625px;
+}
+
+tr {
+
+    padding: 10px
+}
+
+td {
+    border-width: 0 2px 5px 0;
+    border-color: grey;
+    border-style: solid;
+    padding: 10px;
+    color: grey
+
+}
+
+.classic {
+    background-color: honeydew;
+    color: blue
+
+
+
+}
+
+.header {
+    border-width: 0 2px 5px 0;
+    background-color:rgba(2, 59, 7, 0.5);
+    color: white;
+    padding: 10px;
+    border-style: solid;
+    border-color: grey;
+
+}
+
+table {
+    border-collapse: collapse;
+    border-top: 0;
+}
