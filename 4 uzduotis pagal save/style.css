@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana,sans-serif;
+}
+
+
+.bgimg {
+    background-image: url("images/wedding_couple.jpg");
+    background-size: cover;
+    position: relative;
+    filter: grayscale(50%);
+    height: 49vw;
+}
+
+
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    letter-spacing: 6px;
+    line-height: 60px;
+    font-family: "raleway", sans-serif;
+    font-size: 20px;
+}
+
+.text h1 {
+    line-height: 2;
+    font-size: 60px !important;
+    font-weight: 100 !important;
+    margin: 10px 0;
+}
+
+.text h2 {
+    font-weight: 100;
+    margin: 10px 0;
+}
+
+.text b {
+    font-weight: 600;
+}
+
+.navi a {
+   width: 25%;
+    float: left;
+    text-decoration: none;
+    color: black;
+    padding: 10px 5px;
+
+}
+
+.navi:hover {
+    background-color: white;
+    opacity: 1;
+}
+
+.navi {
+    line-height: 15px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    opacity: 0.75;
+    list-style: none;
+    font-family: "raleway", sans-serif;
+
+}
+
+li a {
+    padding: 15px;
+}
+
+ul {
+    padding: 10px;
+}
+
+.navi .wid a:hover {
+    background-color: black !important;
+    color: white !important;
+}
+
+.navi a:hover {
+    background-color: darkgrey;
+}
+
+.container {
+    padding: 60px 15px;
+    background-color: lightpink;
+}
+
+.headd {
+    text-align: center;
+    color: grey;
+    padding: 20px;
+    margin-bottom: 35px;
+}
+
+.img {
+    align-content: center;
+    width: 75%;
+    border-radius: 15px;
+    margin: auto;
+    display: block;
+}
+
+
+p {
+    display: block;
+    width: 75%;
+    margin: auto;
+    padding: 35px 0 35px 0;
+    line-height: 35px;
+}
+
+.button {
+    padding: 25px 15px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+
+
+}
+
