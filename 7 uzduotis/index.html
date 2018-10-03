@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <div class="in-names">
+                <span>Title</br></span>
+                <span>Name</br></span>
+                <span>Phone Number</br></span>
+                <span>Email Adress</br></span>
+                <span>Your Website</br></span>
+                <span>Nr. of items to order</br></span>
+                <span>Lenght</br></span>
+                <span>Delivery date</br></span>
+                <span>Time of delivery</br></span>
+                <span>Color of the item</br></span>
+            </div>
+            <div class="inputs">
+                <input type="text" name="Title" placeholder="Select one of enter your own" required>
+                <input type="text" name="Name" placeholder="John Doe" required>
+                <input type="text" name="Phone Number" placeholder="+1 23456789"> (Optional)
+                <input type="email" name="Email Adress" placeholder="Email" required>
+                <input type="text" name="Your Website" placeholder="www.yoursite.com"> (Optional)
+                <input type="number" name="quantity" min="1" max="10" required> (1-10)
+                <input type="range" name="Lenght" required class="slider"> 1m (in 10cm increments) <span class="slider_label"></span>
+                <input type="date" name="Delivery date" min="2010-12-16" required> (minimum 16 December 2010)
+                <input type="time" name="Time of delivery" step="1800" min="00:00" max="23:30" required> (in 30min increments)
+                <input type="color" name="Color of the item" value="#ff0000" required> (default red)
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </form>
+    </div>
+    <div class="container margin-top-35px">
+        <span>Search</span><input type="search"><button type="submit">Go</button>
+        <div class="clear"></div>
+    </div>
+    <script src="javas.js"></script>
+</body>
+</html>
