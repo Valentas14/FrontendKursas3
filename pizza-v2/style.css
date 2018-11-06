@@ -1,0 +1,381 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Amatic SC', cursive;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.clear {
+    clear: both;
+    content:"";
+}
+
+
+.col-sm-1   { width: 6.5%; }
+.col-sm-2	{ width: 15%; }
+.col-sm-3	{ width: 23.5%; }
+.col-sm-4	{ width: 33.3%; }
+.col-sm-5	{ width: 40.5%; }
+.col-sm-6 	{ width: 49%; }
+.col-sm-7	{ width: 57.5%; }
+.col-sm-8 	{ width: 66%; }
+.col-sm-9	{ width: 74.5%; margin: auto;}
+.col-sm-10 	{ width: 83%; margin: auto;}
+.col-sm-11	{ width: 91.5%; }
+.col-sm-12 	{ width: 100%; }
+
+.container {width: 1000px;}
+.container-fluid {width: 100%; height: 100%}
+.container-sm {
+    width: 320px;
+    height: 480px;
+    margin: auto;
+    position: relative;
+
+}
+
+.bck-img {
+    width: auto;
+    min-height: 90%;
+    background-repeat: no-repeat;
+    background-image: url("images/pizza.jpg");
+    filter: grayscale(50%);
+    background-size: cover;
+    position: relative;
+}
+
+.bck-img h1 {
+    font-size: 45px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    left: 50%;
+    top: 40%;
+
+}
+
+.bck-img button {
+    text-decoration: none;
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    background-color: black;
+    font-size: 36px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    cursor: pointer;
+    white-space: nowrap;
+    letter-spacing: 2px;
+
+}
+
+.bck-img span {
+    left: 15px;
+    bottom: 15px;
+    position: absolute;
+    padding: 8px;
+    background-color: black;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+
+.bck-b {
+    background-color: black;
+    height: auto;
+}
+
+.col-sm-10 h1 {
+    padding-top: 55px;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 400;
+    margin-bottom: 35px;
+    height: auto;
+}
+
+.list-s button{
+    list-style: none;
+    text-align: center;
+    font-size: 35px;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.list-s li{
+    list-style: none;
+    float: left;
+    text-align: center;
+}
+
+.width-33-4 {
+    width: 33.4%;
+}
+
+
+.list-s button:hover {
+    background-color: red;
+}
+
+.bck-w {
+    background-color: white;
+}
+
+.col-sm-12 h3 {
+    color: black;
+    float: left;
+    font-size: 30px;
+    width: 100%;
+    margin-top: 15px;
+    display: block;
+}
+
+.col-sm-12 p {
+    color: grey;
+    display: inline-block;
+    margin: 25px 0;
+    font-size: 30px;
+
+}
+
+.col-sm-12 span {
+    background-color: #616161;
+    text-align: center;
+    float: right;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+}
+
+.col-sm-12 b {
+    float: left;
+}
+
+.f-l {
+    float: left;
+}
+
+.f-r {
+    float: right;
+}
+
+#bck-gr {
+    background-color: #9e9e9e;
+    border-radius: 5px;
+    padding: 5px 10px;
+    float: left;
+    margin-left: 10px;
+    color: black;
+    display: inline-block;
+}
+
+#bck-gre {
+    background-color: #9e9e9e;
+    border-radius: 5px;
+    padding: 5px 10px;
+    float: left;
+    margin-left: 10px;
+    color: black;
+    display: inline-block;
+}
+
+#bck-red {
+    background-color: red;
+    border-radius: 5px;
+    padding: 5px 10px;
+    float: left;
+    margin-left: 10px;
+    display: inline-block;
+
+}
+
+.border-w {
+    border: 10px solid white;
+}
+
+.display-n {
+    display: none;
+}
+
+.height-100 {
+    height: 100px;
+}
+
+.bck-r {
+    background-color: #8b5f5b;
+}
+
+.bck-r .col-sm-10 p {
+    font-size: 25px;
+}
+
+
+
+#img-75 {
+    float: right;
+    width: 150px;
+    border-radius: 75%;
+
+}
+
+.bck-r .col-sm-10 img {
+    width: 100%;
+    margin: 25px 0;
+}
+
+.bck-r .col-sm-10 .font-si {
+    font-size: 35px;
+    text-align: left;
+    padding: 15px 0;
+    margin-bottom: 0;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.width-50 p {
+    margin: 20px 0;
+    text-align: left;
+}
+
+#map { height: 400px; width:100%; }
+
+.bck-dgr {
+    background-color: #6c7a81;
+    height: auto;
+}
+
+.height-custom {
+    height: 575px;
+}
+
+.col-ms-9 {
+    width: 90%;
+    margin: auto;
+    padding: 50px 20px;
+}
+
+.col-ms-9 h1 {
+    text-align: center;
+    margin: 35px 0;
+    font-size: 65px;
+    font-weight: 100;
+}
+
+.col-ms-9 p {
+    margin: 25px 0;
+    font-size: 25px;
+}
+
+.col-ms-9 p span {
+    background-color: black;
+    padding: 5px;
+}
+
+.col-ms-9 .font-35 {
+    font-size: 35px;
+}
+
+.col-ms-9 input {
+    padding: 15px 10px;
+    width: 100%;
+    margin: 10px 0;
+    font-size: 25px;
+}
+ .col-ms-9 button {
+     width: 100%;
+     padding: 15px;
+     font-size: 25px;
+     margin-top: 15px;
+ }
+
+ .bck-bf {
+     background-color: black;
+     padding: 65px 0;
+ }
+
+ .bck-bf h1 {
+     text-align: center;
+ }
+
+
+ .bck-bf a:hover {
+     color: chartreuse ;
+ }
+
+.bck-bf a {
+    color: white ;
+}
+
+.nav-top {
+    top: 0;
+    position: fixed;
+    background-color: black;
+    opacity: 0.70;
+    width: 100%;
+}
+
+.nav-top ul li{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    float: left;
+    padding: 10px 25px;
+    font-size: 25px;
+
+    cursor: pointer;
+}
+
+.nav-top ul li a {
+    text-decoration: none;
+    color: white;
+    opacity: 0.70;
+}
+
+.nav-top:hover {
+    opacity: 1;
+}
+
+.nav-top ul li a:hover {
+    opacity: 1;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-top {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .bck-img h1 {
+        font-size: 65px;
+        font-weight: 100;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .bck-img h1 {
+        font-size: 85px;
+        font-weight: 100;
+    }
+}
+
+form button {
+    cursor: pointer;
+}
+
+

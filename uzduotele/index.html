@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Laikas</th>
+            <th>Auto valst. nr</th>
+            <th>Metrai</th>
+            <th>Sekundes</th>
+            <th>Km/H</th>
+        </tr>
+        <tbody></tbody>
+    </table>
+
+
+
+
+<script>
+    var arr = [
+        ["2017-07-06 19:59:45", "LRS123", 6000, 128],
+        ["2017-07-06 19:59:45", "LRS124", 7000, 138],
+        ["2017-07-06 19:59:45", "LRS125", 8000, 148],
+        ["2017-07-06 19:59:45", "LRS126", 9000, 158],
+        ["2017-07-06 19:59:45", "LRS127", 5000, 168],
+    ];
+
+    for (var i = 0; i < arr.length; i++) {
+        var kmPerH = convertToKmH(arr[i][2], arr[i][3]);
+        arr[i][arr.length] = kmPerH;
+    }
+    console.log(arr);
+
+
+    function convertToKmH(meters, secondsLasted) {
+        return (meters / 1000) / (secondsLasted / 60 / 60);
+    }
+
+    var tableTbodyHtml = '';
+    for (var k = 0; k < arr.length; k++) {
+        tableTbodyHtml += '<tr>'
+
+    }
+
+</script>
+</body>
+</html>

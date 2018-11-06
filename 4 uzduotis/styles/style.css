@@ -1,0 +1,41 @@
+.bgimg {
+    background-image: url("../images/wedding_couple.jpg");
+}
+
+.bgimg, bgimg2 {
+    min-height: 100%;
+    background-position: center;
+    background-size: cover ;
+}
+
+.w3-greyscale-min, .w3-grayscale-min {
+    filter: grayscale(50%);
+}
+
+.w3-tooltip, .w3-display-container {
+    position: relative;
+}
+
+.w3-wide {
+    letter-spacing: 4px;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+    display: block;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+body, h1, h2 {
+    font-family: "raleway", sans-serif;
+}
+
+html, body {
+    font-size: 15px;
+    line-height: 1.5;
+    /*font-family: Verdana, sans-serif;*/
+}
+
+.w3-text-white, .w3-hover-text-white:hover
